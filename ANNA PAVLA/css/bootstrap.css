@@ -1,0 +1,744 @@
+@media(max-height: 1000px){
+    ul{
+        padding-top: 6vh;
+    }
+	ul li{
+        margin-top: 7vh;
+    }
+    h1{
+        max-width: 852px;
+    }
+    .girlheader{
+        height: 100%;
+        width: 87.9vh;
+    }
+    .girlplus2{
+        left: -14.5vh;
+        height: 112%;
+        width: 88.89vh;
+    }
+    .plusu1 {
+        background: url(../img/girlplus1.png) no-repeat right top;
+    }
+}
+
+@media(max-height: 900px){
+	ul li{
+        font-size: 36px;
+        background-position: left top 12px;
+    }
+    .girlplus2{
+        left: -12vh;
+    }
+}
+
+@media(max-height: 800px){
+    .zaglheader{
+        margin-top: 10vh;
+    }
+    .zaglheader p{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .botheader p span{
+        font-size: 60px;
+    }
+    h1{
+        font-size: 42px;
+        max-width: 720px;
+    }
+    h2{
+        font-size: 36px;
+        max-width: 180px;
+    }
+    h2 div{
+        font-size: 76px;
+    }
+	ul li{
+        font-size: 30px;
+        background-position: left top 10px;
+    }
+    .girlplus2{
+        left: -10vh;
+    }
+    .tovaru2 .tovar:nth-child(4) {
+        height: 320px;
+        margin-top: -320px;
+    }
+    .pa{
+        width: 470px;
+        height: 540px;
+    }
+    .tovaru2 .tovar:nth-child(1) {
+        height: calc(100% - 320px);
+    }
+}
+
+@media(max-height: 650px){
+    .zaglheader{
+        margin-top: 7vh;
+    }
+    .zaglheader p{
+        font-size: 24px;
+        margin-top: 7px;
+        letter-spacing: 1px;
+    }
+    .botheader p{
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    .botheader p span{
+        font-size: 42px;       
+    }
+    h1{
+        font-size: 36px;
+        max-width: 620px;
+    }
+    h2{
+        font-size: 30px;
+        max-width: 160px;
+        /*max-width: 300px;*/       
+    }
+    h2 div{
+        font-size: 60px;
+    }
+	ul li{
+        font-size: 24px;
+        -webkit-background-size: 20px;
+        background-size: 20px;
+        background-position: left top 7px;
+    }
+    .girlplus2{
+        left: -7vh;
+    }
+    .tovaru2 .tovar:nth-child(4) {
+        height: 220px;
+        margin-top: -220px;
+    }
+    .pa{
+        height: 350px;
+        width: 320px;        
+    }
+    .tovaru2 .tovar:nth-child(1) {
+        height: calc(100% - 220px);
+    }
+    .zvonok, .footzvonok{
+        font-size: 14px;
+         -webkit-background-size: 40px;
+        background-size: 40px;
+        padding: 4px 0px;
+        padding-right: 55px;
+    }
+    .blackline{
+        height: 50px;
+         -webkit-background-size: 308px 30px;
+        background-size: 308px 30px;
+    }
+    .greyline1 span{
+        font-size: 20px;
+    }
+    .number, .footnumber{
+        font-size: 24px;
+        -webkit-background-size: 40px 28px;
+        background-size: 40px 28px;
+        padding-right: 50px;
+    }
+    .number span, .footnumber span{
+        font-size: 30px;
+    }
+    .textbtn{
+        font-size: 15px;
+        top: 15px;
+    }
+    .textbtnform{
+        font-size: 20px;
+        bottom: 12px;
+    }
+    .forbtn{
+        width: 400px;
+    }
+    .greyline1, .greyline2, .gleyline3, .gleyline4{
+        height: 50px;
+    }
+    .btnkatalog, .btnkatalogform {
+        border-bottom: 50px solid #FF004F;
+        border-left: 30px solid transparent;
+    }
+    .forbtn:hover .btnkatalog, .forbtnform:hover .btnkatalogform{
+        border-top: 50px solid #FF004F;
+    }
+    .strleft {
+        width: 25px;
+        height: 20px;
+        left: -23px;
+        top: calc(50% - 10px);
+    }
+    .socseti a{
+        width: 34px;
+        height: 34px;
+    }
+    .plusu1 {
+        -webkit-background-size: calc(64.42vh - 50px) calc(100vh - 50px);
+        background-size: calc(64.42vh - 50px) calc(100vh - 50px);
+    }
+    .address{
+        font-size: 20px;
+        padding-top: 11px;
+    }
+    footer{
+        padding-bottom: 50px;
+    }
+    .forma{
+        top: 10px;
+    }
+    .btnkatalogform{
+        width: 200px;
+    }
+}
+
+@media(max-height: 470px){
+    .zaglheader{
+        margin-top: 5vh;
+    }
+    .zaglheader p{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    h1{
+        font-size: 30px;
+        max-width: 530px;
+    }
+    h2{
+        font-size: 24px;
+        max-width: 135px;
+    }
+    h2 div{
+        font-size: 48px;
+    }
+	ul li{
+        font-size: 20px;
+        background-position: left top 7px;
+    }
+    .tovaru2 .tovar:nth-child(4) {
+        height: 150px;
+        margin-top: -150px;
+    }
+    .pa{       
+        height: 250px;
+        width: 220px;
+    }
+    .tovaru2 .tovar:nth-child(1) {
+        height: calc(100% - 150px);
+    }
+}
+
+@media(max-width: 1279px) {
+    .zvonok, .footzvonok{
+        font-size: 14px;
+         -webkit-background-size: 40px;
+        background-size: 40px;
+        padding: 4px 0px;
+        padding-right: 55px;
+    }
+    .blackline{
+        height: 50px;
+         -webkit-background-size: 308px 30px;
+        background-size: 308px 30px;
+    }
+    .greyline1 span{
+        font-size: 20px;
+    }
+    .number, .footnumber{
+        font-size: 24px;
+        -webkit-background-size: 40px 28px;
+        background-size: 40px 28px;
+        padding-right: 50px;
+    }
+    .number span, .footnumber span{
+        font-size: 30px;
+    }
+    .textbtn{
+        font-size: 15px;
+        top: 15px;
+    }
+    .forbtn{
+        width: 400px;
+    }
+    .greyline1, .greyline2, .gleyline3, .gleyline4{
+        height: 50px;
+    }
+    .textbtnform{
+        font-size: 20px;
+        bottom: 12px;
+    }
+    .btnkatalog, .btnkatalogform{
+        border-bottom: 50px solid #FF004F;
+        border-left: 30px solid transparent;
+    }
+    .btnkatalogform{
+        width: 200px;
+    }
+    .forbtn:hover .btnkatalog, .forbtnform:hover .btnkatalogform{
+        border-top: 50px solid #FF004F;
+    }
+    .strleft {
+        width: 25px;
+        height: 20px;
+        left: -23px;
+        top: calc(50% - 10px);
+    }
+    .socseti a{
+        width: 34px;
+        height: 34px;
+    }
+    .plusu1 {
+        -webkit-background-size: calc(64.42vh - 50px) calc(100vh - 50px);
+        background-size: calc(64.42vh - 50px) calc(100vh - 50px);
+    }
+    .address{
+        font-size: 20px;
+        padding-top: 11px;
+    }
+    footer{
+        padding-bottom: 50px;
+    }
+    .tovaru3 .col-md-7:nth-child(1) {
+        -webkit-background-size: 300px 120px!important;
+        background-size: 300px 120px!important;
+    }
+}
+
+@media(max-width: 1279px) and (min-height: 651px){
+    .plusu2 ul{
+        max-width: 420px;
+    }
+    h1 {
+        font-size: 36px;
+        max-width: 620px;
+    }
+}
+
+@media(max-width: 1279px) and (min-height: 801px){
+    h1 {
+        font-size: 30px;
+        max-width: 530px;
+        margin-top: 18vh;
+    }
+    .zaglheader p {
+        font-size: 24px;
+        margin-top: 7px;
+    }
+    .botheader p {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    .botheader p span {
+        font-size: 42px;
+    }
+    .pa {
+        width: 470px;
+        height: 540px;
+    }
+    .tovaru2 .tovar:nth-child(4) {
+        height: 320px;
+        margin-top: -320px;
+    }
+    .tovaru2 .tovar:nth-child(1) {
+        height: calc(100% - 320px);
+    }
+}
+
+@media(max-width: 1279px) and (min-height: 901px){
+    .plusu1 ul{
+        padding-left: 30px;
+        max-width: 500px;
+    }
+	ul li{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1279px) and (min-height: 1101px){
+    h1 {
+        max-width: 430px;
+    }
+    .zaglheader p {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .plusu1 ul{
+        padding-left: 10px;
+        max-width: 450px;
+    }
+	ul li{
+        font-size: 24px;
+    }
+    .plusu2 ul{
+        max-width: 330px;
+    }
+}
+
+@media(max-width: 990px){
+	.blackline{
+        -webkit-background-size: 254px 25px;
+        background-size: 254px 25px;
+    }
+    .tovaru{
+        height: 150vh;
+    }
+    .plusu1 ul{
+        padding-left: 30px;
+        max-width: 500px;
+    }
+    .plusu2 ul {
+        max-width: 330px;
+    }
+    .forflexfoot{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footnumber{
+        margin-right: 25px;
+    }
+    .footzvonok{
+        margin-right: 24px;
+    }
+    footer{
+        justify-content: center;
+    }
+    .socseti{
+        margin-top: 30px;
+    }
+    .address {
+        font-size: 17px;
+        padding-top: 12px;
+    }
+    .girlheader{
+        left: -17vh;
+        height: 95%;
+        width: 83.5vh;
+        top: auto;
+        bottom: 0px;
+    }
+    .girlplus2{
+        height: 100%;
+        width: 78.48vh;
+        left: -22vh;
+    }
+    .plusu1 {
+        background-position: right -10vh top;
+    }
+}
+
+@media(max-width: 990px) and (min-height: 471px){
+    h1 {
+        font-size: 30px;
+        max-width: 450px;
+    }
+    .zaglheader p {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .plusu1 ul{
+        max-width: 480px;
+    }
+}
+
+@media(max-width: 990px) and (min-height: 651px){
+   .botheader p {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    .botheader p span {
+        font-size: 42px;
+    }
+    ul li {
+        font-size: 22px;
+        -webkit-background-size: 20px;
+        background-size: 20px;
+        background-position: left top 7px;
+    }
+    .plusu1 ul{
+        max-width: 450px;
+    }
+    .plusu2 ul {
+        max-width: 310px;
+    }
+    .pa {
+        height: 350px;
+        width: 320px;
+    }
+    .tovaru2 .tovar:nth-child(4) {
+        height: 220px;
+        margin-top: -220px;
+    }
+    .tovaru2 .tovar:nth-child(1) {
+        height: calc(100% - 220px);
+    }
+}
+
+@media(max-width: 990px) and (min-height: 801px){
+    h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+        max-width: 350px;
+        margin-top: 18vh;
+    }
+    .zaglheader p {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+    .botheader p {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    .botheader p span {
+        font-size: 36px;
+    }
+    .girlplus2 {
+        left: -22vh;
+    }
+    ul li {
+        font-size: 20px;
+        -webkit-background-size: 15px;
+        background-size: 15px;
+        background-position: left top 6px;
+        padding-left: 25px;
+    }
+    .plusu1 ul{
+        padding-left: 10px;
+        max-width: 380px;
+    }
+    .plusu2 ul {
+        max-width: 280px;
+    }
+}
+
+@media(max-width: 767px){
+	.tovaru .col-md-4:first-child {
+        height: 50vh;
+    }
+    h2{
+        display: flex;
+        max-width: 90%;
+        align-items: center;
+    }
+    h2 div{
+        margin-left: 15px;
+    }
+    .tovaru3{
+        height: 150vh;
+    }
+    .tovaru3 .col-md-5{
+        height: 50vh;
+    }
+    .tovaru3 .col-md-7:nth-child(3){
+        margin-top: 0px;
+    }
+    .address {
+        font-size: 16px;
+        padding-top: 12px;
+        margin-bottom: 10px;
+        float: none;
+    }    
+    .tovaru3 .forbtn{
+        width: 100%;
+        background-color: #808080;
+    }
+    .tovaru3 .btnkatalog{
+        width: 400px;
+    }
+    .tovaru3 .textbtn{
+        left: auto;
+        right: 15px;
+    }
+    .tovaru2 .tovar{
+        width: 50%;
+    }
+    .tovaru2 .tovar:nth-child(3){
+        display: none;
+    }
+    .tovaru2 .tovar:nth-child(2){
+        height: 50%;
+    }
+    .tovaru2 .tovar:nth-child(4){
+        margin-top: 0px;
+    }
+    .tovaru2 .tovar:nth-child(5){
+        height: 50%;
+        margin-top: -50vh;
+        margin-left: 50%;
+    }
+    .girlheader{
+        left: -30vh;
+    }
+    .blackline{
+        background-position: left 22px center;
+    }
+    .plusu1 {
+        background-position: right -15vh top;
+    }
+    .forma{
+        right: 0px;
+    }
+}
+
+@media(max-width: 600px){
+	.girlheader{
+        display: none;
+    }
+    .zaglheader{
+        float: none;
+        margin-right: 0px;
+        padding: 0px 15px;
+    }
+    .zaglheader p{
+        letter-spacing: 0px;
+    }
+    h1{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .girlplus2{
+        left: -27vh;
+    }
+    .plusu1 {
+        background-position: right -25vh top;
+    }
+    .blackline{
+        -webkit-background-size: 202px 20px;
+        background-size: 202px 20px;
+    }
+    ul li {
+        font-size: 20px;
+        background-position: left top 7px;
+    }
+    .plusu1 ul{
+        max-width: 350px;
+    }
+    .plusu2 ul{
+        max-width: 290px;
+    }
+    .forflexfoot{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footnumber{
+        margin: 0px;
+    }
+    .footzvonok{
+        margin: 0px;
+        margin-top: 30px;
+    }
+    .foto{
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+    .forma{
+        width: 300px;
+        padding: 10px;
+    }
+    .textfrom{
+        font-size: 14px;
+        width: 190px;
+    }
+    .forbtnform{
+        margin-right: -10px;
+    }
+    .btnkatalogform{
+        width: 200px;
+    }
+}
+
+@media(max-width: 477px){
+     .botheader p {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    .botheader p span{
+        font-size: 36px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .btnkatalog, .tovaru3 .btnkatalog{
+        width: 305px;
+    }
+    .textbtn, .tovaru3 .textbtn{
+        left: auto;
+        right: 10px;
+        font-size: 12px;
+    }
+    .strleft {
+        width: 20px;
+        height: 15px;
+        left: auto;
+        right: 295px;
+        top: calc(50% - 7.5px);
+    }
+    .forbtn:hover .strleft{
+        left: auto;
+    }
+    .greyline1{
+        padding-top: 7px;
+        text-align: center;
+    }
+    .greyline1 span{
+        display: none;
+    }
+    .number span, .footnumber span{
+        display: inline;
+        font-size: 24px;
+    }
+    .zvonok{
+        display: none;
+    }
+    .blackline{
+        background-position: center;
+    }
+    h2{
+        display: block;
+         max-width: 160px;
+    }
+    ul li {
+        font-size: 16px;
+        background-position: left top 5px;
+        padding-left: 35px;
+    }
+    .plusu1 ul{
+        padding-left: 15px;
+        max-width: 300px;
+    }
+    .plusu2 ul{
+        max-width: 240px;
+    }
+    .girlplus2 {
+        left: -38vh;
+    }
+}
+
+@media(max-width: 477px) and (min-height: 471px){
+    .pa {
+        height: 300px;
+        width: 270px;
+    }
+    .tovaru2 .tovar:nth-child(4) {
+        height: 180px;
+    }
+    .tovaru2 .tovar:nth-child(1){
+        height: calc(100% - 180px);
+    }
+}
+@media(max-width: 477px) and (min-height: 651px){
+    h2{
+        max-width: 190px;
+    }
+}
+@media(max-width: 477px) and (min-height: 801px){
+    h2{
+        max-width: 237px;
+    }
+}
