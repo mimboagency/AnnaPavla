@@ -144,13 +144,19 @@ ul li p{
 }
 .number, .footnumber{
     font-size: 28px;
-    padding-right: 70px;
     margin-right: 25px;
     color: #fff;
-    background: url(../img/mess.png) no-repeat right center;
-    -webkit-background-size: 52px 36px;
-    background-size: 52px 36px;
     font-weight: 400;
+    position: relative;
+}
+.message{
+    display: inline-block;
+    width: 52px;
+    height: 36px;
+    background: url(../img/mess.png) no-repeat right center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-left: 18px;
 }
 .number span, .footnumber span{
     font-size: 38px;
