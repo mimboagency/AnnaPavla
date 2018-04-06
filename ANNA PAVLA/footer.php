@@ -1,6 +1,6 @@
  <footer>
             <div class="forflexfoot">
-                <a href="tel:<?the_field('phone');?>" class="footnumber"><?the_field('phone');?></a>
+                <a href="tel:<?=strip_tags(get_field('phone'))?>" class="footnumber"><?the_field('phone');?></a>
                 <a href="#callbackwidget"><div class="footzvonok"> Заказать<br>
                     обратный звонок</div></a>
             </div>
@@ -43,7 +43,7 @@
 <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=60ebab26a9edb776604b1af6e3b2b293" charset="UTF-8" async></script>
 <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter48378263 = new Ya.Metrika({ id:48378263, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/48378263" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 <style>
-.callbackkiller.cbk-phone.cbk-phone-pulse {
+.callbackkiller.cbk-phone.cbk-phone-pulse, .cbk-phone-content{
     display:none!important;
 }
 </style> 

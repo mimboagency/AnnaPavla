@@ -10,7 +10,7 @@ Template Post Type: post, page, product
                 <a href="#callbackwidget"><div class="zvonok">Заказать<br>
 обратный звонок</div></a>
             </div>
-            <div class="greyline1"><span>Контакты</span><a href="tel:<?the_field('phone');?>" class="number"><?the_field('phone');?></a></div>
+            <div class="greyline1"><span>Контакты</span><a href="tel:<?=strip_tags(get_field('phone'));?>" class="number"><?the_field('phone');?></a></div>
             <div class="zaglheader">
                 <h1><?the_field('h1');?></h1>
                 <p><?the_field('h2');?></p>
